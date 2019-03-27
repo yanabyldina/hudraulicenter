@@ -23,4 +23,10 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+.container h3 {
+  margin-top: 40px;
+}
 
+.container {
+  display: block ;
+}

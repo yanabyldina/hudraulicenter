@@ -1,0 +1,41 @@
+body {
+  padding-top: 56px;
+}
+.navbar-brand img {
+    max-height: 35px;
+    padding-right: 105px;
+}
+
+.description {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) .description {
+  flex: 0 0 50%;
+    max-width: 100%;
+}
+
+  
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.container h3 {
+  margin-top: 40px;
+}
+
+.container {
+  display: block ;
+}
+
+
+.card {
+    width:350px;
+}
+li.nav-item a  {
+    
+    color: black;
+}

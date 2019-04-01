@@ -43,3 +43,12 @@ body {
 .container {
   display: block ;
 }
+
+
+.card {
+    width:350px;
+}
+li.nav-item a  {
+    
+    color: black;
+}

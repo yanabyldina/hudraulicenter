@@ -31,11 +31,26 @@ body {
   display: block ;
 }
 
-
-.card {
-    width:350px;
-}
 li.nav-item a  {
     
     color: black;
+}
+.card {
+    width:400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product-list {
+    display: grid ;
+     grid-template-columns: 1fr 1fr 1fr ;
+     grid-gap: 15px;
+}
+
+@media (min-width: 400px) {
+    .product-list {
+     
+        grid-gap: 5px;
+        grid-template-columns: 1fr ;
+}
 }

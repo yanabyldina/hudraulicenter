@@ -5,7 +5,10 @@
  */
 body {
   padding-top: 56px;
+    margin: 0 auto;
+
 }
+
 .navbar-brand img {
     max-height: 35px;
     padding-right: 105px;

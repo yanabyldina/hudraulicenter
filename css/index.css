@@ -7,8 +7,7 @@
 body {
   padding-top: 56px;
   margin: 0 auto;
- 
-
+max-width: 980px;
 }
 
 .navbar-brand img {
@@ -26,12 +25,7 @@ body {
   background-size: cover;
 }
 
-.description {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
+
 
 @media (min-width: 992px) .description {
   flex: 0 0 50%;
@@ -50,6 +44,8 @@ body {
 
 .container {
   display: block;
+  min-width: 1000px !important;
+  
 }
 
 
@@ -62,9 +58,7 @@ li.nav-item a {
   color: black;
 }
 
-#about {
-  background-color: black ;
-}
-.discription {
-  padding-left: 15px ;
+.top-container {
+  display: flex;
+ justify-content: flex-end;
 }

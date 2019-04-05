@@ -7,7 +7,7 @@
 body {
   padding-top: 56px;
   margin: 0 auto;
-  max-width: 980px;
+ 
 
 }
 
@@ -61,8 +61,10 @@ li.nav-item a {
 
   color: black;
 }
+
 #about {
-  display: grid ;
-   grid-template-columns: 1fr 1fr 1 fr ;
-   background-color: black ;
+  background-color: black ;
+}
+.discription {
+  padding-left: 15px ;
 }

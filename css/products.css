@@ -1,7 +1,7 @@
 body {
     padding-top: 56px;
     margin: 0 auto;
-
+    max-width: 1000px;
 }
 
 
@@ -75,10 +75,11 @@ li.nav-item a {
     }
 }
 
-h2{
-    padding-left: 10px ;
+h2 {
+    padding-left: 10px;
 }
+
 hr {
     padding: 2px;
-    length: 1000px ;
+    length: 1000px;
 }

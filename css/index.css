@@ -3,16 +3,18 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
 body {
   padding-top: 56px;
-    margin: 0 auto;
-
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .navbar-brand img {
-    max-height: 35px;
-    padding-right: 105px;
+  max-height: 35px;
+  padding-right: 105px;
 }
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -22,36 +24,39 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .description {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 @media (min-width: 992px) .description {
   flex: 0 0 50%;
-    max-width: 100%;
+  max-width: 100%;
 }
 
-  
+
 
 .portfolio-item {
   margin-bottom: 30px;
 }
+
 .container h3 {
   margin-top: 40px;
 }
 
 .container {
-  display: block ;
+  display: block;
 }
 
 
 .card {
-    width:350px;
+  width: 350px;
 }
-li.nav-item a  {
-    
-    color: black;
+
+li.nav-item a {
+
+  color: black;
 }

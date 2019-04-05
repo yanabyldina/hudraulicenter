@@ -60,3 +60,8 @@ li.nav-item a {
 
   color: black;
 }
+
+.carousel slide {
+  padding-left: 20px ;
+  padding-top: 50px;
+}

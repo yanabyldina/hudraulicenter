@@ -58,7 +58,12 @@ li.nav-item a {
   color: black;
 }
 
-.top-container {
-  display: flex;
- justify-content: flex-end;
+.discription {
+   position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+   
 }

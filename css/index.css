@@ -10,36 +10,8 @@ body {
   padding-right: 105px;
 }
 
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .portfolio-item {
   margin-bottom: 30px;
-}
-
-.container h3 {
-  margin-top: 40px;
-}
-
-.container {
-  display: block;
-  min-width: 1000px !important;
-
-}
-.card {
-  width: 350px;
-}
-
-li.nav-item a {
-
-  color: black;
 }
 
 .description {

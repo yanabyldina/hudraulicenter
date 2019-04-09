@@ -37,7 +37,7 @@ li.nav-item a {
 
 
 
-@media (min-width: 250px) and (max-width: 600px) {
+@media (min-width: 250px) and (max-width: 750px) {
     .product-list {
         grid-template-columns: 1fr ;
     }

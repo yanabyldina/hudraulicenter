@@ -9,8 +9,8 @@ function doStep() {
     buttonForward.onclick = null;
     buttonBackward.onclick = null;
 
-    var container = document.getElementById('container');
-    var list = container.getElementsByTagName('ul')[0];
+    var carousel = document.getElementById('carousel');
+    var list = carousel.getElementsByTagName('ul')[0];
     var step = parseInt(getComputedStyle(list.firstElementChild).width);
     var listItems = list.getElementsByTagName('li');
     var maxPosition = (listItems.length - 1) * step;

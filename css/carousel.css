@@ -18,7 +18,7 @@
 ul {
   position: relative;
   height: 170px;
-  width: 350px;
+  width: 340px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -29,7 +29,7 @@ ul {
 }
 
 ul img {
-  width: 350px;
+  width: 340px;
   height: 170px;
   box-sizing: border-box;
   display: block;
@@ -51,7 +51,7 @@ ul li {
   display: inline-block;
 }
 
-#cariosel span {
+#carousel span {
   display: inline-block;
   vertical-align: middle;
 }

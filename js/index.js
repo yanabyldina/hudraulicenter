@@ -1,4 +1,1 @@
-let carousel = NewCarousel ;
-$('.NewCarousell').NewCarousel({
-  interval: 10000
-})
+const productList = new ProductList('products.json', $('.products-container'));

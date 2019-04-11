@@ -1,8 +1,7 @@
-[
-    {
+[{
         "id": "1",
         "title": "Large drone",
-        "image": "1.png",
+        "image": "3.png",
         "description": "Large drone for most critical missions. Can carry load.",
         "price": 499.99
     },

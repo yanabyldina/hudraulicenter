@@ -3,9 +3,18 @@ body {
     margin: 0 auto;
     max-width: 980px;
 }
+
 .navbar-brand img {
-  max-height: 35px;
-  padding-right: 105px;
+    max-height: 35px;
+    padding-right: 105px;
+}
+
+main {
+    display: flex;
+}
+
+main aside {
+    min-width: 40%;
 }
 
 aside img {
@@ -13,11 +22,29 @@ aside img {
     width: 100%;
 }
 
-aside {
-    display: flex;
-    flex-wrap: wrap;
-}
+@media screen and (max-width: 720px) {
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-aside div {
-    flex-basis: 50%;
+    aside div {
+        flex-basis: 50%;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    main article {
+        order: 1;
+    }
+
+    main nav {
+        order: 3;
+    }
+
+    main aside {
+        order: 2;
+    }
 }

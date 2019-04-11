@@ -1,0 +1,24 @@
+body {
+    padding-top: 56px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+.navbar-brand img {
+  max-height: 35px;
+  padding-right: 105px;
+}
+
+
+aside img {
+    display: block;
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside div {
+    flex-basis: 50%;
+}

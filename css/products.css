@@ -123,3 +123,6 @@ hr {
 .card {
     height: 100%;
 }
+.btn {
+    padding: 0.75rem 0.7rem;
+}

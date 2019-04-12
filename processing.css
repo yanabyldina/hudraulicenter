@@ -1,25 +1,41 @@
 body {
-    padding-top: 56px;
-    margin: 0 auto;
-    max-width: 1200px;
+  padding-top: 56px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .navbar-brand img {
-    max-height: 35px;
-    padding-right: 105px;
+  max-height: 35px;
+  padding-right: 105px;
 }
-
 article {
     padding: 10px;
-}
-
-container img {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 main {
     display: flex;
 }
-
-
+main aside {
+    min-width: 40%;
+} 
+@media screen and (max-width: 720px) {
+   
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    aside div {
+        flex-basis: 30%;
+    }
+   
+    main {
+        flex-wrap: wrap;
+    }
+    main article {
+        order: 1;
+    }
+    
+    main aside {
+        order: 2;
+    }
+}

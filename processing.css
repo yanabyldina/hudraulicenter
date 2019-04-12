@@ -1,0 +1,25 @@
+body {
+    padding-top: 56px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.navbar-brand img {
+    max-height: 35px;
+    padding-right: 105px;
+}
+
+article {
+    padding: 10px;
+}
+
+container img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+}
+
+

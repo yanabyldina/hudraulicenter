@@ -12,12 +12,11 @@ article {
     padding: 10px;
 }
 
+
 main {
     display: flex;
 }
-main aside {
-    min-width: 40%;
-} 
+
 @media screen and (max-width: 720px) {
    
     aside {

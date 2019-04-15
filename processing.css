@@ -1,26 +1,36 @@
 body {
   padding-top: 56px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .navbar-brand img {
   max-height: 35px;
   padding-right: 105px;
 }
-.discription {
-    padding: 10px;
+
+.discription p {
+    padding-left: 5px;
+}
+.discription img {
+    max-height: 300px;
+    padding-left: 20px;
 }
 
-.discription img {
+.discription {
     display: flex;
     justify-content: flex-start;
+    padding-top:20px;
+    padding-bottom: 90px;
 }
-
-@media screen and (max-width: 720px) {
-   .discription {
-        display: flex;
-        flex-wrap: wrap;
+@media (min-width: 300px) and (max-width: 850px) {
+    .discription  {
+        display: block;
     }
-  
+}
+ 
+@media (max-width: 300px) {
+    .discription img {
+        max-height: 150px;
+    }
 }
